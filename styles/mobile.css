@@ -1,0 +1,41 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  background-color: #090b1a;
+  height: 100vh;
+  display: grid;
+  place-items: center; }
+  body .card {
+    display: flex;
+    border-radius: 4px;
+    background-color: #1b1938;
+    width: 80%;
+    margin-top: toRem(50); }
+    body .card .left {
+      padding: toRem(40) toRem(80);
+      width: 50%; }
+      body .card .left .left__main-heading {
+        color: white;
+        margin-bottom: toRem(40); }
+        body .card .left .left__main-heading .highlight {
+          color: #aa5cdb; }
+      body .card .left .left__text {
+        color: rgba(255, 255, 255, 0.75);
+        margin-bottom: toRem(100); }
+      body .card .left .left__stats {
+        display: flex;
+        justify-content: space-between; }
+        body .card .left .left__stats .stats > h1 {
+          font-weight: 700;
+          color: white; }
+        body .card .left .left__stats .stats > p {
+          text-transform: uppercase;
+          color: rgba(255, 255, 255, 0.6); }
+    body .card .right {
+      width: 50%;
+      background-image: url(../images/image-header-desktop.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      border-radius: 0 4px 4px 0; }
+
+/*# sourceMappingURL=mobile.css.map */
